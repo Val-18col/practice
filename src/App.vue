@@ -1,12 +1,13 @@
 <template>
-  <h1>Bienvenido</h1>
+  <ExampleSelective/>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
+import ExampleSelective from './components/ExampleSelective.vue';
 </script>
 
 <style>
   h1 {
-    color: brown;
+    color: rgba(165, 42, 42, 0.575);
   }
 </style>

@@ -2,12 +2,12 @@
     <div class="post-card">
         <h3>Titulo</h3>
         <p>Parrafo</p>
-        <PostButton></PostButton>
+        <PostButton/>
     </div>
 </template>
 
 <script lang="ts" setup>
-    import PostButton from './PostButton';
+    import PostButton from './PostButton.vue';
 </script>
 
 <style scoped>
