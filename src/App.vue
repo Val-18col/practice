@@ -1,9 +1,9 @@
 <template>
-  <ExampleSelective/>
+  <ModelForm/>
 </template>
 
 <script lang="ts" setup>
-import ExampleSelective from './components/ExampleSelective.vue';
+import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style>
